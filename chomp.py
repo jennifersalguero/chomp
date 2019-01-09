@@ -6,10 +6,10 @@ EMOJI = {-1: '\u2612', 0: ' ', 1: '\u2610'}
 
 class ChompGame:
     def __init__(self):
-        self.
+
 
     def __repr__(self):
-        pass
+        return f''
 
 
 class Board:
@@ -32,12 +32,15 @@ class Board:
         return str(board_df)
 
     def take(self, row, col):
-        pop
+        self.take = range(self.col)
+        self.take = range(self.row)
+        self.take(row,col)
 
-    
+
 class Player:
     def __init__(self):
         self.
 
     def __repr__(self):
-        pass
+
+        return f''
