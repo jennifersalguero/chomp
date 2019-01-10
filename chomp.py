@@ -6,10 +6,10 @@ EMOJI = {-1: '\u2612', 0: ' ', 1: '\u2610'}
 
 class ChompGame:
     def __init__(self):
-
+        pass
 
     def __repr__(self):
-        return f''
+        pass
 
 
 class Board:
@@ -32,15 +32,17 @@ class Board:
         return str(board_df)
 
     def take(self, row, col):
-        self.take = range(self.col)
-        self.take = range(self.row)
-        self.take(row,col)
+        a = Board(4, 5)
+        a.take(row, col)
+        list.row = ['A', 'B', 'C', 'D']
+        list.col = ['1', '2', '3', '4', '5']
+        self.state = np.ones((list.row, list.col), atype=int)
+        self.state[-1][0] = -1
 
 
 class Player:
     def __init__(self):
-        self.
+        pass
 
     def __repr__(self):
-
-        return f''
+        pass
