@@ -33,11 +33,11 @@ class Board:
 
     def take(self, row, col):
         a = Board(4, 5)
+        a.state: np.array([[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [-1, 1, 1, 1, 1]])
         a.take(row, col)
-        list.row = ['A', 'B', 'C', 'D']
-        list.col = ['1', '2', '3', '4', '5']
-        self.state = np.ones((list.row, list.col), atype=int)
-        self.state[-1][0] = -1
+        a.take(2, 1)
+        for a in range(5):
+                print(a)
 
 
 class Player:
