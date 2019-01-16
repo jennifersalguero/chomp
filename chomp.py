@@ -11,6 +11,10 @@ class ChompGame:
     def __repr__(self):
         pass
 
+    def coin_flip(self):
+        import random
+        print(random.choice['Heads', 'Tails'])
+
 
 class Board:
     def __init__(self, rows, cols):
@@ -32,15 +36,21 @@ class Board:
         return str(board_df)
 
     def take(self, row, col):
-        self.take = row[A,B,C,D]
-        self.take = column[1,2,3,4]
-        self. take = (row, column)
-        take = range([A,B,C,D][1,2,3,4])
-        row.pop
-        column.pop
+        for r in range(row + 1):
+            self.state[r][col:] = 0
+
+
 class Player:
-    def __init__(self):
-        pass
+    def __init__(self, players):
+        players = []
+        player1 = input("Enter your name")
+        player2 = input("Enter your name too")
+        self.player1 = player1
+        self.player2 = player2
+        players.append(player1)
+        players.append(player2)
+        import random
+        print(random.choice(players), 'Player 1 starts the game which is')
 
     def __repr__(self):
         pass
