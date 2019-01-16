@@ -32,14 +32,12 @@ class Board:
         return str(board_df)
 
     def take(self, row, col):
-        a = Board(4, 5)
-        a.state: np.array([[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [-1, 1, 1, 1, 1]])
-        a.take(row, col)
-        a.take(2, 1)
-        for a in range(5):
-                print(a)
-
-
+        self.take = row[A,B,C,D]
+        self.take = column[1,2,3,4]
+        self. take = (row, column)
+        take = range([A,B,C,D][1,2,3,4])
+        row.pop
+        column.pop
 class Player:
     def __init__(self):
         pass
