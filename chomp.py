@@ -5,17 +5,14 @@ EMOJI = {-1: '\u2612', 0: ' ', 1: '\u2610'}
 
 
 class ChompGame:
-    def __init__(self, size = (3, 4)):
+    def __init__(self, size=(3, 4)):
+        import random
         self.p1 = Player()
         self.p2 = Player()
         self.turn = random.choice(self.p1, self.p2)
 
     def __repr__(self):
         pass
-
-    def coin_flip(self):
-        import random
-        print(random.choice['Heads', 'Tails'])
 
 
 class Board:
