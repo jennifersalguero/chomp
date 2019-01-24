@@ -55,6 +55,12 @@ class Board:
     def take(self, row, col):
         for r in range(row + 1):
             self.state[r][col:] = 0
+        player1 = []
+        player2= []
+        if input in range:
+            take player1 input
+        elif:
+            take player2 input
 
 
 class Player:
